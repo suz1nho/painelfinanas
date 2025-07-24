@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="styles-auth.css" />
+</head>
+<body>
+  <div class="auth-container">
+    <h2>Criar conta</h2>
+    <form action="register.php" method="POST">
+      <input type="text" name="nome" placeholder="Nome completo" required />
+      <input type="email" name="email" placeholder="E-mail" required />
+      <input type="password" name="senha" placeholder="Senha" required />
+      <button type="submit">Cadastrar</button>
+    </form>
+    <p>Já tem uma conta? <a href="index.html">Entrar</a></p>
+  </div>
+</body>
+</html>
